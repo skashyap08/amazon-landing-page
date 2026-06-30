@@ -664,3 +664,20 @@ nav ul{
 display:none;
 
 }
+.hero{
+
+height:85vh;
+
+}
+
+.hero h1{
+
+font-size:48px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+}
