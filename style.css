@@ -83,3 +83,35 @@ align-items:center;
 padding:18px 8%;
 
 }
+.logo{
+
+font-size:32px;
+font-weight:700;
+
+}
+
+.logo span{
+
+color:#00A8E1;
+
+}
+
+nav ul{
+
+display:flex;
+gap:35px;
+
+}
+
+nav ul li a{
+
+font-size:16px;
+transition:.4s;
+
+}
+
+nav ul li a:hover{
+
+color:#00A8E1;
+
+}
