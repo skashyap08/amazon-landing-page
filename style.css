@@ -168,3 +168,17 @@ rgba(0,0,0,.85)
 );
 
 }
+.overlay{
+
+width:100%;
+position:relative;
+z-index:2;
+padding:0 8%;
+
+}
+
+.hero-content{
+
+max-width:650px;
+
+}
