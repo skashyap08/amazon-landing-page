@@ -728,3 +728,85 @@ grid-template-columns:repeat(2,1fr);
 grid-template-columns:repeat(2,1fr);
 
 }
+footer{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+}
+
+
+@media(max-width:576px){
+
+.hero h1{
+
+font-size:30px;
+
+}
+
+.hero p{
+
+font-size:15px;
+
+}
+
+.hero button{
+
+padding:14px 28px;
+
+}
+
+.movies{
+
+grid-template-columns:1fr;
+
+}
+
+.device-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.logo{
+
+font-size:25px;
+
+}
+
+.section h2,
+.devices h2,
+.faq h2{
+
+font-size:28px;
+
+}
+
+.membership h1{
+
+font-size:36px;
+
+}
+
+.membership p{
+
+font-size:16px;
+
+}
+
+footer{
+
+padding:30px;
+
+}
+
+.social{
+
+justify-content:center;
+
+}
+
+}
