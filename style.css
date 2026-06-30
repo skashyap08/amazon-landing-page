@@ -492,3 +492,7 @@ footer div{
     transition:.4s;
     font-size:18px;
 }
+.social i:hover{
+    background:#00A8E1;
+    transform:translateY(-8px);
+}
