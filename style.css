@@ -636,3 +636,18 @@ filter:brightness(.9);
 filter:brightness(1.1);
 
 }
+@media(max-width:1200px){
+
+.hero h1{
+
+font-size:55px;
+
+}
+
+.movies{
+
+grid-template-columns:repeat(4,1fr);
+
+}
+
+}
