@@ -475,3 +475,20 @@ footer{
 footer div{
     color:#bbb;
 }
+.social{
+    display:flex;
+    gap:18px;
+}
+
+.social i{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    background:#16212b;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    transition:.4s;
+    font-size:18px;
+}
