@@ -515,3 +515,14 @@ footer div{
 #top:hover{
     transform:translateY(-8px);
 }
+.card,
+.device-grid div,
+.item{
+
+backdrop-filter:blur(20px);
+
+background:rgba(255,255,255,.05);
+
+border:1px solid rgba(255,255,255,.08);
+
+}
