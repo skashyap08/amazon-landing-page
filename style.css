@@ -697,3 +697,23 @@ grid-template-columns:repeat(3,1fr);
 height:80vh;
 
 }
+.hero h1{
+
+font-size:38px;
+
+}
+
+.hero p{
+
+font-size:17px;
+
+}
+
+.section,
+.devices,
+.membership,
+.faq{
+
+padding:70px 6%;
+
+}
