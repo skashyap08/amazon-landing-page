@@ -496,3 +496,19 @@ footer div{
     background:#00A8E1;
     transform:translateY(-8px);
 }
+#top{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    width:55px;
+    height:55px;
+    border:none;
+    border-radius:50%;
+    background:#00A8E1;
+    color:white;
+    font-size:22px;
+    cursor:pointer;
+    display:none;
+    transition:.4s;
+    z-index:999;
+}
