@@ -381,3 +381,23 @@ border-radius:18px;
 transition:.4s;
 
 }
+.device-grid div:hover{
+
+transform:translateY(-12px);
+background:#1d2d3b;
+
+}
+
+.device-grid i{
+
+font-size:60px;
+margin-bottom:20px;
+color:#00A8E1;
+
+}
+
+.device-grid h3{
+
+font-size:22px;
+
+}
