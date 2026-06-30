@@ -587,3 +587,16 @@ transform:translateY(0);
 }
 
 }
+.device-grid div{
+
+animation:floating 5s infinite ease-in-out;
+
+}
+.card:hover{
+
+box-shadow:
+0 0 20px rgba(0,168,225,.2),
+0 0 40px rgba(0,168,225,.15),
+0 20px 45px rgba(0,0,0,.5);
+
+}
