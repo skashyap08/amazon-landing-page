@@ -401,3 +401,17 @@ color:#00A8E1;
 font-size:22px;
 
 }
+/*========================================
+        FAQ SECTION
+========================================*/
+
+.faq{
+    padding:100px 8%;
+    background:#0c131b;
+}
+
+.faq h2{
+    text-align:center;
+    font-size:42px;
+    margin-bottom:60px;
+}
