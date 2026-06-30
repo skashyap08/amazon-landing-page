@@ -146,3 +146,12 @@ cursor:pointer;
 border:2px solid #00A8E1;
 
 }
+.hero{
+
+height:100vh;
+background:url("images/hero1.jpg") center/cover no-repeat;
+display:flex;
+align-items:center;
+position:relative;
+
+}
