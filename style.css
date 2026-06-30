@@ -365,3 +365,19 @@ font-size:40px;
 margin-bottom:60px;
 
 }
+.device-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:30px;
+
+}
+
+.device-grid div{
+
+background:#16212b;
+padding:40px;
+border-radius:18px;
+transition:.4s;
+
+}
