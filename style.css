@@ -260,3 +260,22 @@ transition:.6s;
 transform:scale(1.15);
 
 }
+.card::before{
+
+content:"";
+position:absolute;
+inset:0;
+background:linear-gradient(
+transparent,
+rgba(0,0,0,.75)
+);
+opacity:0;
+transition:.4s;
+
+}
+
+.card:hover::before{
+
+opacity:1;
+
+}
