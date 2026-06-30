@@ -75,3 +75,11 @@ header{
     background:rgba(0,0,0,.6);
     backdrop-filter:blur(12px);
 }
+nav{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+
+}
