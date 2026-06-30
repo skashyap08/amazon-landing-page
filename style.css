@@ -438,3 +438,14 @@ font-size:22px;
     font-size:22px;
     position:relative;
 }
+.item h3::after{
+    content:"+";
+    position:absolute;
+    right:25px;
+    font-size:30px;
+    color:#00A8E1;
+}
+
+.item.active h3::after{
+    content:"−";
+}
