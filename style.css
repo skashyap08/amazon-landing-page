@@ -449,3 +449,16 @@ font-size:22px;
 .item.active h3::after{
     content:"−";
 }
+.item p{
+    max-height:0;
+    overflow:hidden;
+    transition:max-height .5s ease,padding .4s ease;
+    padding:0 25px;
+    color:#ddd;
+    line-height:1.8;
+}
+
+.item.active p{
+    max-height:250px;
+    padding:0 25px 25px;
+}
