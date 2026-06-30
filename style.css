@@ -130,3 +130,19 @@ cursor:pointer;
 transition:.4s;
 
 }
+.nav-icons i:hover{
+
+color:#00A8E1;
+transform:scale(1.15);
+
+}
+
+.nav-icons img{
+
+width:42px;
+height:42px;
+border-radius:50%;
+cursor:pointer;
+border:2px solid #00A8E1;
+
+}
