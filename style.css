@@ -247,3 +247,16 @@ transition:.4s;
 background:#1b2530;
 
 }
+.card img{
+
+height:320px;
+object-fit:cover;
+transition:.6s;
+
+}
+
+.card:hover img{
+
+transform:scale(1.15);
+
+}
