@@ -512,3 +512,6 @@ footer div{
     transition:.4s;
     z-index:999;
 }
+#top:hover{
+    transform:translateY(-8px);
+}
