@@ -41,3 +41,21 @@ ul{
 ::-webkit-scrollbar-thumb:hover{
     background:#0cc2ff;
 }
+#loader{
+    position:fixed;
+    inset:0;
+    background:#0f171e;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:9999;
+}
+
+.spinner{
+    width:70px;
+    height:70px;
+    border:6px solid rgba(255,255,255,.15);
+    border-top:6px solid #00A8E1;
+    border-radius:50%;
+    animation:spin 1s linear infinite;
+}
