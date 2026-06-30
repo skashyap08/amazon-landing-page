@@ -535,3 +535,18 @@ position:relative;
 display:inline-block;
 
 }
+.section h2::after,
+.devices h2::after,
+.membership h1::after,
+.faq h2::after{
+
+content:"";
+position:absolute;
+left:0;
+bottom:-10px;
+width:70%;
+height:4px;
+background:#00A8E1;
+border-radius:20px;
+
+}
