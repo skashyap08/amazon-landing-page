@@ -681,3 +681,19 @@ font-size:48px;
 font-size:18px;
 
 }
+.movies{
+
+grid-template-columns:repeat(3,1fr);
+
+}
+
+}
+
+
+@media(max-width:768px){
+
+.hero{
+
+height:80vh;
+
+}
