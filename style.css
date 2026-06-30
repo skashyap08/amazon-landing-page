@@ -115,3 +115,18 @@ nav ul li a:hover{
 color:#00A8E1;
 
 }
+.nav-icons{
+
+display:flex;
+align-items:center;
+gap:25px;
+
+}
+
+.nav-icons i{
+
+font-size:22px;
+cursor:pointer;
+transition:.4s;
+
+}
