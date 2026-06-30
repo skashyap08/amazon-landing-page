@@ -620,3 +620,19 @@ transform:skewX(-30deg);
 transition:.7s;
 
 }
+button:hover::before{
+
+left:120%;
+
+}
+.card img{
+
+filter:brightness(.9);
+
+}
+
+.card:hover img{
+
+filter:brightness(1.1);
+
+}
