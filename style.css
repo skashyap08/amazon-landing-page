@@ -462,3 +462,16 @@ font-size:22px;
     max-height:250px;
     padding:0 25px 25px;
 }
+footer{
+    background:#090d12;
+    padding:40px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+footer div{
+    color:#bbb;
+}
