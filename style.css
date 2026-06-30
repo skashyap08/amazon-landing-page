@@ -307,3 +307,22 @@ transform:translateY(-12px);
 box-shadow:0 20px 45px rgba(0,0,0,.45);
 
 }
+.membership{
+
+padding:100px 8%;
+background:linear-gradient(
+135deg,
+#02131d,
+#0f171e
+);
+
+text-align:center;
+
+}
+
+.membership h1{
+
+font-size:52px;
+margin-bottom:20px;
+
+}
