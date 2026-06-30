@@ -229,3 +229,21 @@ font-size:34px;
 margin-bottom:30px;
 
 }
+.movies{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+
+}
+
+.card{
+
+overflow:hidden;
+border-radius:18px;
+position:relative;
+cursor:pointer;
+transition:.4s;
+background:#1b2530;
+
+}
