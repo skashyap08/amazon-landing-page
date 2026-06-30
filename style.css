@@ -279,3 +279,31 @@ transition:.4s;
 opacity:1;
 
 }
+.card::after{
+
+content:"▶ Watch Now";
+position:absolute;
+bottom:20px;
+left:20px;
+opacity:0;
+transition:.4s;
+font-weight:600;
+background:#00A8E1;
+padding:10px 20px;
+border-radius:30px;
+
+}
+
+.card:hover::after{
+
+opacity:1;
+bottom:30px;
+
+}
+
+.card:hover{
+
+transform:translateY(-12px);
+box-shadow:0 20px 45px rgba(0,0,0,.45);
+
+}
