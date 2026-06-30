@@ -651,3 +651,16 @@ grid-template-columns:repeat(4,1fr);
 }
 
 }
+@media(max-width:992px){
+
+nav{
+
+padding:18px 5%;
+
+}
+
+nav ul{
+
+display:none;
+
+}
