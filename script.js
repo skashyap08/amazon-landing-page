@@ -357,4 +357,13 @@ movie+" is available on Prime Video."
 }
 
 });
+setTimeout(()=>{
+
+console.log(
+
+"Welcome to Prime Video UI"
+
+);
+
+},1500);
 
