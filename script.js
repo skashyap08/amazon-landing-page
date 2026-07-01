@@ -156,3 +156,20 @@ transform:translateY(60px);
 transition:1s;
 
 }
+.section.active,
+
+.membership.active,
+
+.devices.active,
+
+.faq.active{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+`;
+
+document.head.appendChild(style);
