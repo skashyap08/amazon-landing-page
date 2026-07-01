@@ -255,3 +255,12 @@ opacity:0;
 }
 
 `;
+document.head.appendChild(ripple);
+
+window.addEventListener("scroll",()=>{
+
+hero.style.backgroundPositionY=
+
+window.pageYOffset*0.4+"px";
+
+});
