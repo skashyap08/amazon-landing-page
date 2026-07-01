@@ -173,3 +173,18 @@ transform:translateY(0);
 `;
 
 document.head.appendChild(style);
+const buttons=document.querySelectorAll("button");
+
+buttons.forEach(btn=>{
+
+btn.addEventListener("click",function(e){
+
+const circle=document.createElement("span");
+
+const diameter=Math.max(
+
+this.clientWidth,
+
+this.clientHeight
+
+);
