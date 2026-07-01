@@ -336,4 +336,25 @@ header.style.boxShadow="none";
 }
 
 });
+const searchIcon=document.querySelector(".fa-search");
+
+searchIcon.addEventListener("click",()=>{
+
+const movie=prompt(
+
+"Search Movie"
+
+);
+
+if(movie){
+
+alert(
+
+movie+" is available on Prime Video."
+
+);
+
+}
+
+});
 
