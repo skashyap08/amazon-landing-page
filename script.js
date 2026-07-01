@@ -132,3 +132,27 @@ sec.classList.add("active");
 }
 
 });
+}
+window.addEventListener("scroll",reveal);
+
+reveal();
+
+const style=document.createElement("style");
+
+style.innerHTML=`
+
+.section,
+
+.membership,
+
+.devices,
+
+.faq{
+
+opacity:0;
+
+transform:translateY(60px);
+
+transition:1s;
+
+}
