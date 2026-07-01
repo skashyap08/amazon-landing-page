@@ -211,3 +211,20 @@ if(ripple){
 ripple.remove();
 
 }
+this.appendChild(circle);
+
+});
+
+});
+
+const ripple=document.createElement("style");
+
+ripple.innerHTML=`
+
+button{
+
+overflow:hidden;
+
+position:relative;
+
+}
