@@ -281,4 +281,23 @@ cards[random].style.boxShadow=
 "0 0 35px #00A8E1";
 
 },2500);
+const sections=document.querySelectorAll("section");
+
+const navLinks=document.querySelectorAll("nav ul li a");
+
+window.addEventListener("scroll",()=>{
+
+let current="";
+
+sections.forEach(section=>{
+
+const top=section.offsetTop-120;
+
+if(pageYOffset>=top){
+
+current=section.getAttribute("id");
+
+}
+
+});
 
