@@ -13,3 +13,19 @@ const heroImages = [
     "images/hero2.jpg",
     "images/hero3.jpg"
 ];
+let currentHero = 0;
+
+function changeHero(){
+
+    currentHero++;
+
+    if(currentHero >= heroImages.length){
+        currentHero = 0;
+    }
+
+    hero.style.backgroundImage =
+        `url(${heroImages[currentHero]})`;
+
+}
+
+setInterval(changeHero,5000);
