@@ -264,3 +264,21 @@ hero.style.backgroundPositionY=
 window.pageYOffset*0.4+"px";
 
 });
+setInterval(()=>{
+
+cards.forEach(card=>{
+
+card.style.boxShadow="none";
+
+});
+
+const random=
+
+Math.floor(Math.random()*cards.length);
+
+cards[random].style.boxShadow=
+
+"0 0 35px #00A8E1";
+
+},2500);
+
