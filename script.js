@@ -29,3 +29,14 @@ function changeHero(){
 }
 
 setInterval(changeHero,5000);
+const items = document.querySelectorAll(".item");
+
+items.forEach(item=>{
+
+    item.querySelector("h3").addEventListener("click",()=>{
+
+        item.classList.toggle("active");
+
+    });
+
+});
