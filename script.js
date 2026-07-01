@@ -188,3 +188,26 @@ this.clientWidth,
 this.clientHeight
 
 );
+circle.style.width=
+
+circle.style.height=
+
+`${diameter}px`;
+
+circle.style.left=
+
+`${e.clientX-this.offsetLeft-diameter/2}px`;
+
+circle.style.top=
+
+`${e.clientY-this.offsetTop-diameter/2}px`;
+
+circle.classList.add("ripple");
+
+const ripple=this.getElementsByClassName("ripple")[0];
+
+if(ripple){
+
+ripple.remove();
+
+}
