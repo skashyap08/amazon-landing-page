@@ -109,3 +109,26 @@ card.style.transform="scale(1)";
 });
 
 });
+const reveals=document.querySelectorAll(
+
+".section,.membership,.devices,.faq"
+
+);
+
+function reveal(){
+
+reveals.forEach(sec=>{
+
+const windowHeight=window.innerHeight;
+
+const revealTop=sec.getBoundingClientRect().top;
+
+const revealPoint=120;
+
+if(revealTop<windowHeight-revealPoint){
+
+sec.classList.add("active");
+
+}
+
+});
