@@ -40,3 +40,20 @@ items.forEach(item=>{
     });
 
 });
+const topBtn=document.getElementById("top");
+
+window.addEventListener("scroll",()=>{
+
+    if(window.scrollY>500){
+
+        topBtn.style.display="block";
+
+    }
+
+    else{
+
+        topBtn.style.display="none";
+
+    }
+
+});
